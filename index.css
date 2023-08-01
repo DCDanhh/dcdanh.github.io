@@ -1,0 +1,629 @@
+:root {
+  /* Fonts */
+  --font-alfa-slab-one: "Alfa Slab One";
+  --font-alef: Alef;
+  --font-bigshot-one: "Bigshot One";
+  --font-big-shoulders-text: "Big Shoulders Text";
+
+  /* Font Sizes */
+  --font-size-109xl: 128px;
+  --font-size-21xl: 40px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-khaki: #fcdc6d;
+  --color-red-100: #ff1a1a;
+  --color-black: #000;
+  --color-blue-100: #0c07ff;
+  --color-blue-200: rgba(45, 40, 255, 0.8);
+  --color-gold: #ffe500;
+  --color-lightcoral: #f68888;
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0;
+  padding: 0;
+  max-width: 1920px; 
+  margin: 0 auto; 
+  line-height: normal;
+  display: flex; 
+  overflow-x: hidden;
+}
+
+
+.container {  
+  overflow-x: auto;
+  white-space: nowrap;
+  background-color: #f0f0f0;
+  width: 100%; 
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+
+ 
+}
+.content {
+  width: 100%;
+  scroll-padding-top: 56.25%;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+}
+.content-inner {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  position: relative;
+}
+
+.slide-169-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 4326px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-blue-200);
+  font-family: var(--font-alfa-slab-one);
+}
+
+.slide-169-1-child {
+  position: absolute;
+  top: 1243px;
+  left: -28px;
+  background-color: var(--color-gold);
+  width: 1135px;
+  height: 923px;
+}
+
+.slide-169-1-item {
+  position: absolute;
+  top: 2417px;
+  left: 138px;
+  border-radius: 50%;
+  border: 27px solid var(--color-khaki);
+  box-sizing: border-box;
+  width: 413px;
+  height: 413px;
+}
+
+.slide-169-1-inner {
+  position: absolute;
+  top: -128px;
+  left: -25px;
+  background-color: #d9d9d9;
+  width: 1132px;
+  height: 1371px;
+}
+
+.rectangle-div {
+  position: absolute;
+  top: 388px;
+  left: -123px;
+  background-color: var(--color-gold);
+  width: 1073px;
+  height: 312px;
+}
+
+.slide-169-1-child1 {
+  position: absolute;
+  top: -83px;
+  left: -25px;
+  border: 5px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1987px;
+  height: 254px;
+}
+
+.slide-169-1-child2 {
+  position: absolute;
+  top: 2417px;
+  left: 201px;
+  background-color: var(--color-black);
+  width: 882px;
+  height: 49px;
+}
+
+.ellipse-div {
+  top: 632px;
+  left: 1682px;
+  background-color: var(--color-lightcoral);
+  width: 224px;
+  height: 224px;
+}
+
+.ellipse-div,
+.ellipse-icon,
+.slide-169-1-child3 {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.slide-169-1-child3 {
+  top: 878px;
+  left: 1586px;
+  border: 27px solid var(--color-black);
+  box-sizing: border-box;
+  width: 413px;
+  height: 413px;
+}
+
+.ellipse-icon {
+  top: 1278px;
+  left: 1171px;
+  width: 765px;
+  height: 874px;
+  object-fit: cover;
+}
+
+.slide-169-1-child4,
+.slide-169-1-child5,
+.slide-169-1-child6 {
+  position: absolute;
+  top: 466px;
+  left: 1730px;
+  border-radius: 50%;
+  background-color: var(--color-lightcoral);
+  width: 129px;
+  height: 129px;
+}
+
+.slide-169-1-child5,
+.slide-169-1-child6 {
+  top: 349px;
+  left: 1761px;
+  width: 67px;
+  height: 67px;
+}
+
+.slide-169-1-child6 {
+  top: 245px;
+  left: 1777px;
+  width: 34px;
+  height: 34px;
+}
+
+.slide-169-1-child7 {
+  position: absolute;
+  top: -139px;
+  left: -49px;
+  border-radius: 50%;
+  background-color: #ff6161;
+  width: 375px;
+  height: 384px;
+}
+
+.cho-mng-n {
+  position: absolute;
+  top: 321px;
+  left: 134px;
+  font-size: 42px;
+  color: var(--color-black);
+  display: inline-block;
+  width: 598px;
+  height: 56px;
+}
+
+.danh {
+  font-family: var(--font-bigshot-one);
+}
+
+.cong-danh {
+  position: absolute;
+  top: 13px;
+  left: 71px;
+  display: inline-block;
+  width: 202px;
+  height: 57px;
+}
+
+.p {
+  margin: 0;
+}
+
+.vn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-45xl);
+  line-height: 70.8%;
+  font-family: var(--font-bigshot-one);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 296px;
+  height: 164px;
+}
+
+.ca-cng-danh,
+.cong-danh-parent {
+  position: absolute;
+  font-size: var(--font-size-21xl);
+}
+
+.cong-danh-parent {
+  top: 44px;
+  left: -10px;
+  width: 296px;
+  height: 164px;
+  color: var(--color-gold);
+  font-family: var(--font-big-shoulders-text);
+}
+
+.ca-cng-danh {
+  top: 686px;
+  left: 1140px;
+  color: var(--color-blue-100);
+  display: inline-block;
+  width: 376px;
+  height: 58px;
+}
+
+.packaginginteraction-designa {
+  margin: 0;
+  font-size: var(--font-size-21xl);
+}
+
+.graphic-design-packaginginter-container,
+.tn-dng-cng-container {
+  position: absolute;
+  color: var(--color-blue-100);
+  display: inline-block;
+}
+
+.graphic-design-packaginginter-container {
+  top: 2492px;
+  left: 592px;
+  width: 1125px;
+  height: 281px;
+  font-size: 96px;
+}
+
+.tn-dng-cng-container {
+  top: 1324px;
+  left: 263px;
+  font-size: var(--font-size-45xl);
+  line-height: 235.9%;
+  width: 815px;
+  height: 781px;
+}
+
+.adobe-photoshop,
+.excel,
+.figma,
+.powerpoint,
+.word {
+  position: absolute;
+  top: 3382px;
+  left: 431px;
+  display: inline-block;
+  width: 487px;
+  height: 97px;
+}
+
+.excel,
+.figma,
+.powerpoint,
+.word {
+  top: 3599px;
+  left: 1285px;
+}
+
+.excel,
+.figma,
+.powerpoint {
+  top: 3786px;
+  left: 1283px;
+}
+
+.figma,
+.powerpoint {
+  top: 3963px;
+}
+
+.figma {
+  top: 4140px;
+}
+
+.adobe-after-effect,
+.adobe-illustrator,
+.adobe-indesign,
+.adobe-premier,
+.work-together-in {
+  position: absolute;
+  top: 3578px;
+  left: 431px;
+  display: inline-block;
+  width: 487px;
+  height: 97px;
+}
+
+.adobe-after-effect,
+.adobe-indesign,
+.adobe-premier,
+.work-together-in {
+  top: 3774px;
+}
+
+.adobe-after-effect,
+.adobe-premier,
+.work-together-in {
+  top: 3970px;
+}
+
+.adobe-premier,
+.work-together-in {
+  top: 4166px;
+}
+
+.work-together-in {
+  top: 2884px;
+  left: 720px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-alef);
+  text-align: right;
+  width: 1125px;
+  height: 281px;
+}
+
+.k-nng,
+.tm-kim,
+.work-together-in {
+  color: var(--color-blue-100);
+}
+
+.tm-kim {
+  position: absolute;
+  top: 62px;
+  left: 1694px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 217px;
+  height: 58px;
+}
+
+.k-nng {
+  left: 1250px;
+}
+
+.hc-tp,
+.k-nng,
+.thng-tin {
+  position: absolute;
+  top: 62px;
+  font-size: var(--font-size-21xl);
+  display: inline-block;
+  width: 217px;
+  height: 58px;
+}
+
+.hc-tp {
+  left: 890px;
+  color: var(--color-black);
+}
+
+.thng-tin {
+  left: 554px;
+}
+
+.olio,
+.thng-tin {
+  color: var(--color-black);
+}
+
+.portfolio {
+  position: absolute;
+  top: 416px;
+  left: 134px;
+  font-size: 200px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-blue-100);
+}
+
+.thng-tin1 {
+  top: 1050px;
+  left: 506px;
+  font-size: var(--font-size-109xl);
+  color: var(--color-red-100);
+}
+
+.hc-tp1,
+.k-nng1,
+.thng-tin1 {
+  position: absolute;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hc-tp1 {
+  top: 2242px;
+  left: 263px;
+  font-size: var(--font-size-109xl);
+  color: var(--color-red-100);
+}
+
+.k-nng1 {
+  top: 3298px;
+  left: 985px;
+  font-size: 152px;
+  color: var(--color-blue-100);
+  display: inline-block;
+  width: 948px;
+  height: 221px;
+}
+
+.slide-169-1-child8 {
+  position: absolute;
+  top: 591px;
+  left: 138px;
+  background-color: var(--color-blue-100);
+  width: 86px;
+  height: 3735px;
+}
+
+.slide-169-1-child9 {
+  position: absolute;
+  top: -22px;
+  left: 1586px;
+  border-radius: 43px;
+  background-color: var(--color-black);
+  width: 27px;
+  height: 1106px;
+}
+
+.searching-icon {
+  position: absolute;
+  top: 68px;
+  left: 1648px;
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+
+.polygon-icon,
+.slide-169-1-child10,
+.slide-169-1-child11 {
+  position: absolute;
+  top: 76.25px;
+  left: 512.48px;
+  width: 32.04px;
+  height: 27.75px;
+}
+
+.slide-169-1-child10,
+.slide-169-1-child11 {
+  left: 844.48px;
+}
+
+.slide-169-1-child11 {
+  top: 80.25px;
+  left: 1194.48px;
+}
+
+.slide-169-1-child12,
+.slide-169-1-child13 {
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+
+.slide-169-1-child12 {
+  top: 2860px;
+  left: 390px;
+  background-color: red;
+  width: 368px;
+  height: 50px;
+}
+
+.slide-169-1-child13 {
+  top: 3428px;
+  left: 1047px;
+  background: linear-gradient(-89.99deg, red, #0c07ff);
+  width: 981px;
+  height: 59px;
+}
+
+.slide-169-1-child14,
+.slide-169-1-child15 {
+  position: absolute;
+  top: 2830px;
+  left: 2054px;
+  background-color: var(--color-khaki);
+  width: 1462px;
+  height: 26px;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+
+.slide-169-1-child15 {
+  top: 2817px;
+  left: 1691px;
+  width: 386px;
+  transform: rotate(-90deg);
+}
+
+.after-effects-icon,
+.illustrator-icon,
+.indesign-icon,
+.photoshop-icon {
+  position: absolute;
+  top: 3743px;
+  left: 284px;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+
+.after-effects-icon,
+.illustrator-icon,
+.photoshop-icon {
+  top: 3349px;
+}
+
+.after-effects-icon,
+.illustrator-icon {
+  top: 3546px;
+}
+
+.after-effects-icon {
+  top: 3940px;
+}
+
+.excel-icon,
+.figma-icon,
+.powerpoint-icon,
+.premiere-pro-icon,
+.word-icon {
+  position: absolute;
+  top: 4137px;
+  left: 284px;
+  width: 128px;
+  height: 128px;
+  object-fit: cover;
+}
+
+.excel-icon,
+.figma-icon,
+.powerpoint-icon,
+.word-icon {
+  top: 4111px;
+  left: 1117px;
+}
+
+.excel-icon,
+.powerpoint-icon,
+.word-icon {
+  top: 3568px;
+}
+
+.excel-icon,
+.powerpoint-icon {
+  top: 3749px;
+}
+
+.powerpoint-icon {
+  top: 3930px;
+}
